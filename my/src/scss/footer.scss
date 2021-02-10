@@ -1,0 +1,30 @@
+.footer{
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    background-color:rgb(109, 110, 114);
+    bottom: 0;
+    height: 5vh;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .contentFooter{
+        font-size: 1rem;
+        width: 33%;
+        margin-top: 1vh;
+        bottom: 49%;
+        color: white;
+         
+    }
+    
+    .contactFooter{ 
+        font-size: 1rem;
+        text-align: right;
+        width: 33%;
+        margin-top: 1vh;
+        bottom: 49%;
+        color: white;  
+        font-family: "Trirong", serif; 
+        }
+}

@@ -1,0 +1,29 @@
+@use 'Profile';
+@use 'header';
+@use 'footer';
+@use 'Portfolio';
+@use 'About';
+@use'contact';
+@import 'media';
+@import 'animations';
+
+
+*, *::before, *::after{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat' , sans-serif ;
+}
+.container {
+    align-items: center;
+    display: flex;
+    text-rendering: optimizeLegibility;
+    justify-content: center;
+    min-height: calc(95vh - 5rem);
+}
+
+
