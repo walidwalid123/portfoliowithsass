@@ -7,12 +7,12 @@ export class Contact extends Component {
             <div className='contact'>
                 <h1>Kontakt Information </h1>
                 <h3>Adress:</h3>
-                <p>Rådhusgata 91A Östersun</p>
+                <p> Östersun</p>
                 <h3>Telefonnummer:</h3>
-                <p>073-0336922</p>
+                <p>073-033789896</p>
                 <h3>Email:</h3>
                 <a href="walid_walid123@hotmail.fr">
-                    <p>walid_walid123@hotmail.fr</p>
+                    <p>walidwalid123@hotmail.fr</p>
                 </a>
             </div>
             </div>
